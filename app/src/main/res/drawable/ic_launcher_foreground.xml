@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Intentionally empty. The launcher artwork (Sudoku grid + pencil) is baked into the
+background layer as a raster image (see drawable-*dpi/ic_launcher_background.png) already
+composed with its own padding/backdrop, so the foreground layer just needs to stay transparent.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108" />

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 color roles - dark scheme. Deep charcoal/navy surfaces, same indigo/purple/amber triad. -->
+    <color name="md_primary">#B7C1FF</color>
+    <color name="md_on_primary">#17215C</color>
+    <color name="md_primary_container">#2E3C82</color>
+    <color name="md_on_primary_container">#DEE1FF</color>
+
+    <color name="md_secondary">#D2BCFF</color>
+    <color name="md_on_secondary">#3D2472</color>
+    <color name="md_secondary_container">#523A89</color>
+    <color name="md_on_secondary_container">#EADDFF</color>
+
+    <color name="md_tertiary">#EABE73</color>
+    <color name="md_on_tertiary">#422C00</color>
+    <color name="md_tertiary_container">#5F4200</color>
+    <color name="md_on_tertiary_container">#FFDEA6</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="md_background">#10121B</color>
+    <color name="md_on_background">#E4E1E9</color>
+    <color name="md_surface">#10121B</color>
+    <color name="md_on_surface">#E4E1E9</color>
+    <color name="md_surface_variant">#454650</color>
+    <color name="md_on_surface_variant">#C7C5D0</color>
+    <color name="md_surface_container">#1A1D28</color>
+    <color name="md_surface_container_high">#242732</color>
+    <color name="md_outline">#8F909A</color>
+    <color name="md_outline_variant">#454650</color>
+
+    <!-- Positive / success role (muted mint) - completion, win-rate, correct states. -->
+    <color name="md_positive">#84D5C4</color>
+    <color name="md_on_positive">#003730</color>
+    <color name="md_positive_container">#005046</color>
+    <color name="md_on_positive_container">#A2F2E1</color>
+
+    <color name="color_primary">@color/md_primary</color>
+    <color name="color_primary_dark">#8993E0</color>
+    <color name="color_accent">@color/md_secondary</color>
+
+    <color name="background">@color/md_background</color>
+    <color name="surface">@color/md_surface</color>
+    <color name="surface_container">@color/md_surface_container</color>
+    <color name="surface_container_high">@color/md_surface_container_high</color>
+    <color name="text_primary">@color/md_on_surface</color>
+    <color name="text_secondary">@color/md_on_surface_variant</color>
+    <color name="divider">@color/md_outline_variant</color>
+
+    <color name="grid_line_thin">@color/md_outline_variant</color>
+    <color name="grid_line_thick">@color/md_on_surface</color>
+    <color name="board_background">@color/md_surface</color>
+
+    <color name="cell_given_text">@color/md_on_surface</color>
+    <color name="cell_user_text">@color/md_primary</color>
+    <color name="cell_selected_bg">@color/md_primary_container</color>
+    <color name="cell_related_bg">#1C1F2C</color>
+    <color name="cell_same_number_bg">@color/md_secondary_container</color>
+    <color name="cell_error_bg">@color/md_error_container</color>
+    <color name="cell_error_text">@color/md_error</color>
+    <color name="cell_hint_bg">@color/md_tertiary_container</color>
+    <color name="cell_hint_text">@color/md_on_tertiary_container</color>
+    <color name="cell_conflict_border">@color/md_error</color>
+    <color name="notes_text">@color/md_on_surface_variant</color>
+
+    <color name="difficulty_easy_container">#1B5E20</color>
+    <color name="difficulty_easy_on_container">#C8E6C9</color>
+    <color name="difficulty_medium_container">#0D47A1</color>
+    <color name="difficulty_medium_on_container">#BBDEFB</color>
+    <color name="difficulty_hard_container">#8A4600</color>
+    <color name="difficulty_hard_on_container">#FFE0B2</color>
+    <color name="difficulty_expert_container">#880E4F</color>
+    <color name="difficulty_expert_on_container">#F8BBD0</color>
+
+    <!-- Fixed brand colors - identical in light/dark. -->
+    <color name="splash_background">#10121B</color>
+    <color name="splash_icon_background">#08183C</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="overlay_scrim">#CC000000</color>
+</resources>

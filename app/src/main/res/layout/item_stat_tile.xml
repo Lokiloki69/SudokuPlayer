@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/bg_icon_tile"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_m">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_clock"
+        app:tint="@color/md_on_primary_container" />
+
+    <TextView
+        android:id="@+id/textValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_s"
+        android:textAppearance="@style/TextAppearance.SudokuPlayer.StatValue"
+        android:textColor="@color/md_on_primary_container"
+        tools:text="24" />
+
+    <TextView
+        android:id="@+id/textLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.SudokuPlayer.StatLabel"
+        android:textColor="@color/md_on_primary_container"
+        tools:text="Games Played" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545814314919",
+    "project_id": "sudokumind-47bc4",
+    "storage_bucket": "sudokumind-47bc4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545814314919:android:5f6b134d8cc787b2c5c082",
+        "android_client_info": {
+          "package_name": "com.onelittlestep.sudokuplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkV9IkeblSDpcLBkoORrvAE-79tju2YYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

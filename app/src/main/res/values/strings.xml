@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">SudokuMind</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Daily Sudoku • Play Offline</string>
+    <string name="action_continue_game">Continue Game</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_statistics">Statistics</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_continue_summary">%1$s · %2$s elapsed</string>
+    <string name="home_continue_progress">%1$d%% complete</string>
+
+    <!-- Difficulty -->
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="difficulty_easy_desc">A relaxed puzzle with plenty of clues</string>
+    <string name="difficulty_medium_desc">A balanced challenge</string>
+    <string name="difficulty_hard_desc">Fewer clues, more deduction</string>
+    <string name="difficulty_expert_desc">For seasoned solvers</string>
+
+    <!-- Game -->
+    <string name="hud_time">Time</string>
+    <string name="hud_mistakes">Mistakes</string>
+    <string name="hud_hints">Hints</string>
+    <string name="mistakes_value">%1$d/%2$d</string>
+    <string name="timer_default">00:00</string>
+    <string name="content_desc_cell">Row %1$d, column %2$d, %3$s</string>
+    <string name="content_desc_cell_empty">empty</string>
+    <string name="content_desc_cell_given">given value %1$d</string>
+    <string name="content_desc_cell_user">your entry %1$d</string>
+    <string name="content_desc_cell_hint">hint value %1$d</string>
+    <string name="content_desc_cell_error">incorrect entry %1$d</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_erase">Erase</string>
+    <string name="action_notes">Notes</string>
+    <string name="action_hint">Hint</string>
+    <string name="action_restart">Restart</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_check">Check</string>
+    <string name="paused_title">Paused</string>
+    <string name="paused_message">Timer stopped. Resume when you\'re ready.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_new_game_title">Start a new game?</string>
+    <string name="dialog_new_game_message">Your current progress on this puzzle will be lost.</string>
+    <string name="dialog_restart_title">Restart puzzle?</string>
+    <string name="dialog_restart_message">This clears all your entries but keeps the same puzzle.</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="game_over_title">Game Over</string>
+    <string name="game_over_message">You reached the mistake limit for this puzzle.</string>
+
+    <string name="completed_title">Puzzle Complete!</string>
+    <string name="completed_difficulty">Difficulty: %1$s</string>
+    <string name="completed_time">Time: %1$s</string>
+    <string name="completed_mistakes">Mistakes: %1$d</string>
+    <string name="completed_hints">Hints used: %1$d</string>
+    <string name="action_play_again">Play Again</string>
+
+    <string name="no_errors_found">No mistakes found. Keep going!</string>
+    <string name="errors_found">%1$d incorrect %2$s highlighted</string>
+    <string name="cell_singular">cell</string>
+    <string name="cell_plural">cells</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Statistics</string>
+    <string name="stats_games_played">Games Played</string>
+    <string name="stats_games_completed">Games Completed</string>
+    <string name="stats_win_rate">Win Rate</string>
+    <string name="native_ad_attribution">Ad</string>
+    <string name="stats_best_time">Best Time</string>
+    <string name="stats_average_time">Average Time</string>
+    <string name="stats_total_mistakes">Total Mistakes</string>
+    <string name="stats_total_hints">Total Hints</string>
+    <string name="stats_overall">Overall</string>
+    <string name="stats_not_available">--</string>
+    <string name="stats_tab_overall">Overall</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dark_mode_system">Follow system</string>
+    <string name="settings_dark_mode_light">Light</string>
+    <string name="settings_dark_mode_dark">Dark</string>
+    <string name="settings_gameplay">Gameplay</string>
+    <string name="settings_sound_vibration">Sound &amp; Vibration</string>
+    <string name="settings_sound">Sound Effects</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_mistake_limit">Mistake Limit</string>
+    <string name="settings_mistake_limit_unlimited">Unlimited</string>
+    <string name="settings_mistake_limit_option">%1$d mistakes</string>
+    <string name="settings_highlight_conflicts">Highlight Conflicts</string>
+    <string name="settings_highlight_conflicts_desc">Show incorrect entries in red as you type</string>
+    <string name="settings_auto_remove_notes">Auto-remove Notes</string>
+    <string name="settings_auto_remove_notes_desc">Clear a number\'s notes when it\'s entered</string>
+    <string name="settings_confirm_new_game">Confirm Before New Game</string>
+    <string name="settings_confirm_new_game_desc">Ask before discarding progress</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_reset_statistics">Reset Statistics</string>
+    <string name="dialog_reset_statistics_title">Reset all statistics?</string>
+    <string name="dialog_reset_statistics_message">This cannot be undone.</string>
+    <string name="statistics_reset_confirmation">Statistics reset</string>
+
+    <!-- Number pad content descriptions -->
+    <string name="number_pad_number">Enter %1$d</string>
+    <string name="remaining_count">%1$d left</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 color roles - light scheme. Indigo / soft purple / mint / amber. -->
+    <color name="md_primary">#4355B9</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#DEE1FF</color>
+    <color name="md_on_primary_container">#000C61</color>
+
+    <color name="md_secondary">#6B4FA0</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#EADDFF</color>
+    <color name="md_on_secondary_container">#280F53</color>
+
+    <color name="md_tertiary">#7A5900</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#FFDEA6</color>
+    <color name="md_on_tertiary_container">#271900</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#FBF8FF</color>
+    <color name="md_on_background">#1B1B21</color>
+    <color name="md_surface">#FBF8FF</color>
+    <color name="md_on_surface">#1B1B21</color>
+    <color name="md_surface_variant">#E3E1EC</color>
+    <color name="md_on_surface_variant">#46464F</color>
+    <color name="md_surface_container">#F0EEF7</color>
+    <color name="md_surface_container_high">#EAE7F2</color>
+    <color name="md_outline">#767680</color>
+    <color name="md_outline_variant">#C7C5D0</color>
+
+    <!-- Positive / success role (mint-teal) - completion, win-rate, correct states. -->
+    <color name="md_positive">#146B5D</color>
+    <color name="md_on_positive">#FFFFFF</color>
+    <color name="md_positive_container">#A2F2E1</color>
+    <color name="md_on_positive_container">#00201A</color>
+
+    <!-- Semantic aliases used across the app - keep these names stable. -->
+    <color name="color_primary">@color/md_primary</color>
+    <color name="color_primary_dark">#2E3F9E</color>
+    <color name="color_accent">@color/md_secondary</color>
+
+    <color name="background">@color/md_background</color>
+    <color name="surface">@color/md_surface</color>
+    <color name="surface_container">@color/md_surface_container</color>
+    <color name="surface_container_high">@color/md_surface_container_high</color>
+    <color name="text_primary">@color/md_on_surface</color>
+    <color name="text_secondary">@color/md_on_surface_variant</color>
+    <color name="divider">@color/md_outline_variant</color>
+
+    <color name="grid_line_thin">@color/md_outline_variant</color>
+    <color name="grid_line_thick">@color/md_on_surface</color>
+    <color name="board_background">@color/md_surface</color>
+
+    <color name="cell_given_text">@color/md_on_surface</color>
+    <color name="cell_user_text">@color/md_primary</color>
+    <color name="cell_selected_bg">@color/md_primary_container</color>
+    <color name="cell_related_bg">#EEEFFC</color>
+    <color name="cell_same_number_bg">@color/md_secondary_container</color>
+    <color name="cell_error_bg">@color/md_error_container</color>
+    <color name="cell_error_text">@color/md_error</color>
+    <color name="cell_hint_bg">@color/md_tertiary_container</color>
+    <color name="cell_hint_text">@color/md_on_tertiary_container</color>
+    <color name="cell_conflict_border">@color/md_error</color>
+    <color name="notes_text">@color/md_on_surface_variant</color>
+
+    <!-- Difficulty tonal container colors, one contrast-safe pair per level. -->
+    <color name="difficulty_easy_container">#C8E6C9</color>
+    <color name="difficulty_easy_on_container">#1B5E20</color>
+    <color name="difficulty_medium_container">#BBDEFB</color>
+    <color name="difficulty_medium_on_container">#0D47A1</color>
+    <color name="difficulty_hard_container">#FFE0B2</color>
+    <color name="difficulty_hard_on_container">#E65100</color>
+    <color name="difficulty_expert_container">#F8BBD0</color>
+    <color name="difficulty_expert_on_container">#880E4F</color>
+
+    <!-- Fixed brand colors - identical in light/dark, used for launcher-style branding (splash icon badge). -->
+    <color name="splash_background">#EEF0FC</color>
+    <color name="splash_icon_background">#08183C</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="overlay_scrim">#B3000000</color>
+</resources>

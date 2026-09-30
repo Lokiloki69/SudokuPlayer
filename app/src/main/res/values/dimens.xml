@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <dimen name="button_corner_radius">20dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="chip_corner_radius">16dp</dimen>
+    <dimen name="control_button_size">56dp</dimen>
+    <dimen name="number_pad_button_min_size">48dp</dimen>
+
+    <dimen name="grid_thick_line_width">3dp</dimen>
+    <dimen name="grid_thin_line_width">1dp</dimen>
+
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_low">1dp</dimen>
+    <dimen name="elevation_medium">3dp</dimen>
+</resources>
